@@ -1,1 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+:root{
+    --cor-texto: #493628;
+    --cor-fundo: #E4E0E1;
+    --cor-secundaria: #181C14;
+    --cor-clara: #AB886D;
+    --font:"Edu AU VIC WA NT Guides", cursive;
+}
+body{
+    background-color: var(--cor-fundo);
+    color:var(--cor-texto);
+    font-family: var(--font);
+}
